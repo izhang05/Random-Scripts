@@ -20,12 +20,12 @@ warnings = [9.5, 3, 1]  # minutes before to give warning
 class_names = ["Advisor Group", "Driver's Ed", "Physics", "English", "Math", "French", "Chemistry", "History"]
 
 rotation_schedule = [
-    [0, -1,  2, 3, -1,  4, -1,  5],
-    [0,  6,  7, 1,  4, -1,  2, -1],
-    [0,  5,  3, 6, -1, -1, -1,  7],
-    [0,  2, -1, 5,  4, -1, -1,  3],
-    [0,  7,  6, 2,  4, -1, -1,  1],
-    [0,  3,  5, 7, -1, -1,  6, -1]
+    [0, -1,  2,  3, -1,  4, -1,  5],
+    [0,  6,  7,  1,  4, -1,  2, -1],
+    [0,  5,  3,  6, -1, -1, -1,  7],
+    [0,  2, -1,  5,  4, -1, -1,  3],
+    [0,  7,  6,  2,  4, -1, -1,  1],
+    [0,  3,  5,  7, -1, -1,  6, -1]
 ]
 
 path = "open -a /Applications/Google\ Chrome.app %s"
