@@ -10,7 +10,7 @@ def sendMessageLoop(repeats, message):
 
 
 def pasteLoop(repeats):
-    for i in range(repeats):
+    for _ in range(repeats):
         pyautogui.hotkey("command", ".")
         pyautogui.press("enter")
 
